@@ -1,2 +1,2 @@
 # portfoliodenedj
-Ce projet consiste en la création de mon curriculum vitae entièrement en HTML et CSS !
+Ce projet consiste en la création de mon curriculum vitae entièrement en HTML, CSS et Javascript!
