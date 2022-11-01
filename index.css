@@ -645,43 +645,33 @@
     }
 
     #btn-scroll-top > i.fa-sharp {
-        padding: 2% 50% ;
+        padding: 2% 45% ;
         font-size: 20pt ;
         color: rgba(128, 128, 128, 0.317) ;
         border: none ;
     }
 
     #btn-scroll-top:hover {
-        block-size: 75px ;
-        cursor: pointer ;
-        transition: 0.5s ;
-    }
-
-    #btn-scroll-top:not(hover) {
         block-size: 50px ;
-        transition: 0.5s ;
     }
 
     #btn-scroll-top:hover i.fa-sharp {
-        font-size: 30pt ;
-        padding: 2% 50% ;
-        block-size: 50px ;
-        transition: 0.5s ;
+        display: block ;
+        padding: 2% 45% ;
+        font-size: 20pt ;
     }
 
     #btn-scroll-top i:hover {
-        color: rgb(145, 207, 255) ;
-        font-size: 25pt ;
-        transition: 0.5s ;
+        display: block ;
     }
 
     #btn-scroll-top i:not(hover) {
-        transition: 0.5s ;
+        display: block ;
     }
 
     .switch {
         display: none ;
-      }
+    }
 }
 
 @media screen and (min-width: 418px) and (max-width: 500px) {
