@@ -637,44 +637,40 @@
     }
 
     .side-project li {
-        display: inline-block ;
-        inline-size: 350px ;
-        margin: 0 0 0 -37px ;
-        line-height: 0.5cm ;
-        font-size: 10pt ;
+        display: inline-block;
+        inline-size: 350px;
+        margin: 0 0 0 -37px;
+        line-height: 0.5cm;
+        font-size: 10pt;
     }
 
-    #btn-scroll-top > i.fa-sharp {
-        padding: 2% 45% ;
-        font-size: 20pt ;
-        color: rgba(128, 128, 128, 0.317) ;
-        border: none ;
-    }
-        
-    #btn-scroll-top:hover {
-        block-size: 40px ;
+    #btn-scroll-top>i.fa-sharp {
+        padding: 3% 45%;
+        font-size: 20pt;
+        color: rgba(128, 128, 128, 0.317);
+        border: none;
     }
 
     #btn-scroll-top:hover {
-        block-size: 40px ;
+        block-size: 50px;
     }
 
     #btn-scroll-top:hover i.fa-sharp {
-        display: block ;
-        padding: 2% 45% ;
-        font-size: 20pt ;
+        display: block;
+        padding: 2% 45%;
+        font-size: 20pt;
     }
 
     #btn-scroll-top i:hover {
-        display: block ;
+        display: block;
     }
 
     #btn-scroll-top i:not(hover) {
-        display: block ;
+        display: block;
     }
 
     .switch {
-        display: none ;
+        display: none;
     }
 }
 
