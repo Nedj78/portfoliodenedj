@@ -478,6 +478,7 @@
 
     html {
         margin: 2px 0 0 2px ;
+        max-block-size: 2000px ;
         zoom: 100% ;
     }
 
