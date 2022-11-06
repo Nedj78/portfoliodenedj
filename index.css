@@ -435,6 +435,7 @@
     html {
         overflow-y: hidden ;
         overflow-x: hidden ;
+        zoom: 100% ;
     }
 
     main {
