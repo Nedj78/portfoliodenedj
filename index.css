@@ -91,14 +91,14 @@
         inline-size: 60px ;
         block-size: 27px ;
         border-radius: 5px ;
-    }
-    
+     }
+  
     .switch input { 
         opacity: 0 ;
         inline-size: 0 ;
         block-size: 0 ;
     }
-    
+  
     .slider {
         position: absolute ;
         cursor: pointer ;
@@ -111,7 +111,7 @@
         transition: .4s ;
         border-radius: 3px ;
     }
-    
+  
     .slider:before {
         position: absolute ;
         content: "" ;
@@ -120,21 +120,21 @@
         padding: 1px 0 1px 0 ;
         inset-block-start: 3px ;
         inset-inline-start: 5px ;
-        inset-block-end: 4px ;
+        inset-block-end: 3px ;
         background-color: white ;
         -webkit-transition: .4s ;
         transition: .4s ;
         border-radius: 3px ;
     }
-    
+  
     input:checked + .slider {
         background-color: #2195f363 ;
     }
-    
+  
     input:focus + .slider {
         box-shadow: 0 0 1px #2195f36c ;
     }
-    
+  
     input:checked + .slider:before {
         -webkit-transform: translateX(26px) ;
         -ms-transform: translateX(26px) ;
