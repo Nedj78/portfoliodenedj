@@ -116,7 +116,7 @@
         position: absolute ;
         content: "" ;
         block-size: 16px ;
-        inline-size: 15px ;
+        inline-size: 15px ; 
         padding: 1px 0 1px 0 ;
         inset-block-start: 3px ;
         inset-inline-start: 5px ;
